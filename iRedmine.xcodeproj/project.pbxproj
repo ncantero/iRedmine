@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0203D7C010358BCE005E98F4 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0203D7BF10358BCE005E98F4 /* Entitlements.plist */; };
+		020720E10F9E0AC1000277FD /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 020720E00F9E0AC1000277FD /* clock.png */; };
+		020720E70F9E0BE3000277FD /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 020720E60F9E0BE3000277FD /* house.png */; };
+		020720E90F9E0C01000277FD /* issues.png in Resources */ = {isa = PBXBuildFile; fileRef = 020720E80F9E0C01000277FD /* issues.png */; };
+		020C07330FA731E2008954EF /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C07320FA731E2008954EF /* error.png */; };
+		020C08290FA74D91008954EF /* feature.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C08270FA74D91008954EF /* feature.png */; };
+		020C082A0FA74D91008954EF /* revision.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C08280FA74D91008954EF /* revision.png */; };
+		020C082E0FA74E67008954EF /* FeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C082B0FA74E67008954EF /* FeatureCell.xib */; };
+		020C082F0FA74E67008954EF /* RevisionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C082C0FA74E67008954EF /* RevisionCell.xib */; };
+		020C08300FA74E67008954EF /* SupportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C082D0FA74E67008954EF /* SupportCell.xib */; };
+		0222E7EF0F8D3D5000445AAD /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0222E7EE0F8D3D5000445AAD /* AddViewController.m */; };
+		023218370F94D2F900A95381 /* IssueTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023218360F94D2F900A95381 /* IssueTableController.m */; };
+		023218610F94D45600A95381 /* IssueTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023218600F94D45600A95381 /* IssueTableView.xib */; };
+		023218E20F94DE2100A95381 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023218E10F94DE2100A95381 /* ProjectViewController.m */; };
+		023218E60F94DEA900A95381 /* ProjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023218E50F94DEA900A95381 /* ProjectView.xib */; };
+		023A0C0810272978009F3E46 /* WWURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A0C0710272978009F3E46 /* WWURL.m */; };
+		024106CE0F8E3EDD008CAB10 /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0222E7FA0F8D3EC700445AAD /* AddView.xib */; };
+		024106CF0F8E3EE7008CAB10 /* BadgeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E2B1EB0F8393A500E49BD6 /* BadgeCell.xib */; };
+		024106D10F8E3EE7008CAB10 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootView.xib */; };
+		024106D20F8E3EEE008CAB10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		024108870F8E677E008CAB10 /* ErrorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024108860F8E677E008CAB10 /* ErrorCell.xib */; };
+		0241088B0F8E67BD008CAB10 /* SubtitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0241088A0F8E67BD008CAB10 /* SubtitleCell.m */; };
+		02434FCC1030847600C62C58 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02434FCB1030847600C62C58 /* Default.png */; };
+		025BBAC10FC6EB80002BD488 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 025BBAC00FC6EB80002BD488 /* safari.png */; };
+		02732B97100F6ED6007592D0 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 02732B96100F6ED6007592D0 /* back.png */; };
+		0278ED5C0F9E40CA000E8EED /* ProjectTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0278ED5B0F9E40CA000E8EED /* ProjectTableController.m */; };
+		028C0B0B0FD7EEF700E28E01 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 028C0B0A0FD7EEF700E28E01 /* header.png */; };
+		0297070F0FA0CEB4000B9588 /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0297070E0FA0CEB4000B9588 /* badge.png */; };
+		029A1DF90FB30E6C00AA99A0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029A1DF80FB30E6C00AA99A0 /* WebViewController.m */; };
+		029A1E0D0FB31C3C00AA99A0 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029A1E0C0FB31C3C00AA99A0 /* WebView.xib */; };
+		029A33960FA9B056003E5600 /* support.png in Resources */ = {isa = PBXBuildFile; fileRef = 029A33950FA9B056003E5600 /* support.png */; };
+		02A8B04C0F98D6830077AB7F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A8B04B0F98D6830077AB7F /* logo.png */; };
+		02CEF8770F9E5B7900FCB183 /* ProjectTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02CEF8760F9E5B7900FCB183 /* ProjectTableView.xib */; };
+		02D86C590F8E75F400EB1658 /* RMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D86C580F8E75F400EB1658 /* RMParser.m */; };
+		02E2B1E90F83924700E49BD6 /* BadgeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E2B1E80F83924700E49BD6 /* BadgeCell.m */; };
+		02E2EDB40F9F57D2003DDCB0 /* WWFeedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E2EDB30F9F57D2003DDCB0 /* WWFeedReader.m */; };
+		1D3623260D0F684500981E51 /* iRedmineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iRedmineAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0203D7BF10358BCE005E98F4 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		020720E00F9E0AC1000277FD /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		020720E60F9E0BE3000277FD /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		020720E80F9E0C01000277FD /* issues.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = issues.png; sourceTree = "<group>"; };
+		020C07320FA731E2008954EF /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		020C08270FA74D91008954EF /* feature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feature.png; sourceTree = "<group>"; };
+		020C08280FA74D91008954EF /* revision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revision.png; sourceTree = "<group>"; };
+		020C082B0FA74E67008954EF /* FeatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureCell.xib; sourceTree = "<group>"; };
+		020C082C0FA74E67008954EF /* RevisionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RevisionCell.xib; sourceTree = "<group>"; };
+		020C082D0FA74E67008954EF /* SupportCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportCell.xib; sourceTree = "<group>"; };
+		0222E7ED0F8D3D5000445AAD /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		0222E7EE0F8D3D5000445AAD /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		0222E7FA0F8D3EC700445AAD /* AddView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		023218350F94D2F900A95381 /* IssueTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueTableController.h; sourceTree = "<group>"; };
+		023218360F94D2F900A95381 /* IssueTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueTableController.m; sourceTree = "<group>"; };
+		023218600F94D45600A95381 /* IssueTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IssueTableView.xib; sourceTree = "<group>"; };
+		023218E00F94DE2100A95381 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		023218E10F94DE2100A95381 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		023218E50F94DEA900A95381 /* ProjectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectView.xib; sourceTree = "<group>"; };
+		023A0C0610272978009F3E46 /* WWURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWURL.h; sourceTree = "<group>"; };
+		023A0C0710272978009F3E46 /* WWURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWURL.m; sourceTree = "<group>"; };
+		024108860F8E677E008CAB10 /* ErrorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorCell.xib; sourceTree = "<group>"; };
+		024108890F8E67BD008CAB10 /* SubtitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleCell.h; sourceTree = "<group>"; };
+		0241088A0F8E67BD008CAB10 /* SubtitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleCell.m; sourceTree = "<group>"; };
+		02434FCB1030847600C62C58 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		025BBAC00FC6EB80002BD488 /* safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari.png; sourceTree = "<group>"; };
+		02732B96100F6ED6007592D0 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		0278ED5A0F9E40CA000E8EED /* ProjectTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectTableController.h; sourceTree = "<group>"; };
+		0278ED5B0F9E40CA000E8EED /* ProjectTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectTableController.m; sourceTree = "<group>"; };
+		028C0B0A0FD7EEF700E28E01 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		0297070E0FA0CEB4000B9588 /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+		029A1DF70FB30E6C00AA99A0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		029A1DF80FB30E6C00AA99A0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		029A1E0C0FB31C3C00AA99A0 /* WebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		029A33950FA9B056003E5600 /* support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = support.png; sourceTree = "<group>"; };
+		02A8B04B0F98D6830077AB7F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		02CEF8760F9E5B7900FCB183 /* ProjectTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableView.xib; sourceTree = "<group>"; };
+		02D86C570F8E75E500EB1658 /* RMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMParser.h; sourceTree = "<group>"; };
+		02D86C580F8E75F400EB1658 /* RMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMParser.m; sourceTree = "<group>"; };
+		02E2B1E70F83924700E49BD6 /* BadgeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeCell.h; sourceTree = "<group>"; };
+		02E2B1E80F83924700E49BD6 /* BadgeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeCell.m; sourceTree = "<group>"; };
+		02E2B1EB0F8393A500E49BD6 /* BadgeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadgeCell.xib; sourceTree = "<group>"; };
+		02E2EDB20F9F57D2003DDCB0 /* WWFeedReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWFeedReader.h; sourceTree = "<group>"; };
+		02E2EDB30F9F57D2003DDCB0 /* WWFeedReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWFeedReader.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iRedmineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRedmineAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iRedmineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRedmineAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iRedmine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRedmine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* iRedmine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRedmine_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0278ED7F0F9E41EA000E8EED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				02434FCB1030847600C62C58 /* Default.png */,
+				02732B96100F6ED6007592D0 /* back.png */,
+				028C0B0A0FD7EEF700E28E01 /* header.png */,
+				025BBAC00FC6EB80002BD488 /* safari.png */,
+				020C08270FA74D91008954EF /* feature.png */,
+				020C08280FA74D91008954EF /* revision.png */,
+				029A33950FA9B056003E5600 /* support.png */,
+				020C07320FA731E2008954EF /* error.png */,
+				0297070E0FA0CEB4000B9588 /* badge.png */,
+				020720E80F9E0C01000277FD /* issues.png */,
+				020720E60F9E0BE3000277FD /* house.png */,
+				020720E00F9E0AC1000277FD /* clock.png */,
+				02A8B04B0F98D6830077AB7F /* logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		02C368F60F977A16001BC49B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				029A1DF70FB30E6C00AA99A0 /* WebViewController.h */,
+				029A1DF80FB30E6C00AA99A0 /* WebViewController.m */,
+				0222E7ED0F8D3D5000445AAD /* AddViewController.h */,
+				0222E7EE0F8D3D5000445AAD /* AddViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				023218E00F94DE2100A95381 /* ProjectViewController.h */,
+				023218E10F94DE2100A95381 /* ProjectViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		02C368F70F977A49001BC49B /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				02E2B1E70F83924700E49BD6 /* BadgeCell.h */,
+				02E2B1E80F83924700E49BD6 /* BadgeCell.m */,
+				024108890F8E67BD008CAB10 /* SubtitleCell.h */,
+				0241088A0F8E67BD008CAB10 /* SubtitleCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		02CEF7670F9E427600FCB183 /* Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				029A1E0C0FB31C3C00AA99A0 /* WebView.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				2899E55F0DE3E45000AC0155 /* RootView.xib */,
+				023218E50F94DEA900A95381 /* ProjectView.xib */,
+				0222E7FA0F8D3EC700445AAD /* AddView.xib */,
+				02CEF8760F9E5B7900FCB183 /* ProjectTableView.xib */,
+				023218600F94D45600A95381 /* IssueTableView.xib */,
+				02E2B1EB0F8393A500E49BD6 /* BadgeCell.xib */,
+				024108860F8E677E008CAB10 /* ErrorCell.xib */,
+				020C082B0FA74E67008954EF /* FeatureCell.xib */,
+				020C082C0FA74E67008954EF /* RevisionCell.xib */,
+				020C082D0FA74E67008954EF /* SupportCell.xib */,
+			);
+			name = "Interface Builder";
+			sourceTree = "<group>";
+		};
+		02E2ED750F9F50F5003DDCB0 /* Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				023218350F94D2F900A95381 /* IssueTableController.h */,
+				023218360F94D2F900A95381 /* IssueTableController.m */,
+				0278ED5A0F9E40CA000E8EED /* ProjectTableController.h */,
+				0278ED5B0F9E40CA000E8EED /* ProjectTableController.m */,
+			);
+			name = "Table View Controllers";
+			sourceTree = "<group>";
+		};
+		02E2EDB10F9F572F003DDCB0 /* WWK Library */ = {
+			isa = PBXGroup;
+			children = (
+				023A0C0610272978009F3E46 /* WWURL.h */,
+				023A0C0710272978009F3E46 /* WWURL.m */,
+				02E2EDB20F9F57D2003DDCB0 /* WWFeedReader.h */,
+				02E2EDB30F9F57D2003DDCB0 /* WWFeedReader.m */,
+			);
+			name = "WWK Library";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iRedmineAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iRedmineAppDelegate.m */,
+				02D86C570F8E75E500EB1658 /* RMParser.h */,
+				02D86C580F8E75F400EB1658 /* RMParser.m */,
+				02E2EDB10F9F572F003DDCB0 /* WWK Library */,
+				02C368F70F977A49001BC49B /* Table Cells */,
+				02E2ED750F9F50F5003DDCB0 /* Table View Controllers */,
+				02C368F60F977A16001BC49B /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iRedmine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0203D7BF10358BCE005E98F4 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iRedmine_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				0278ED7F0F9E41EA000E8EED /* Images */,
+				02CEF7670F9E427600FCB183 /* Interface Builder */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iRedmine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iRedmine" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRedmine;
+			productName = iRedmine;
+			productReference = 1D6058910D05DD3D006BFB54 /* iRedmine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iRedmine" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iRedmine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024106D20F8E3EEE008CAB10 /* MainWindow.xib in Resources */,
+				024106D10F8E3EE7008CAB10 /* RootView.xib in Resources */,
+				024106CF0F8E3EE7008CAB10 /* BadgeCell.xib in Resources */,
+				024106CE0F8E3EDD008CAB10 /* AddView.xib in Resources */,
+				024108870F8E677E008CAB10 /* ErrorCell.xib in Resources */,
+				023218610F94D45600A95381 /* IssueTableView.xib in Resources */,
+				023218E60F94DEA900A95381 /* ProjectView.xib in Resources */,
+				02A8B04C0F98D6830077AB7F /* logo.png in Resources */,
+				020720E10F9E0AC1000277FD /* clock.png in Resources */,
+				020720E70F9E0BE3000277FD /* house.png in Resources */,
+				020720E90F9E0C01000277FD /* issues.png in Resources */,
+				02CEF8770F9E5B7900FCB183 /* ProjectTableView.xib in Resources */,
+				0297070F0FA0CEB4000B9588 /* badge.png in Resources */,
+				020C07330FA731E2008954EF /* error.png in Resources */,
+				020C08290FA74D91008954EF /* feature.png in Resources */,
+				020C082A0FA74D91008954EF /* revision.png in Resources */,
+				020C082E0FA74E67008954EF /* FeatureCell.xib in Resources */,
+				020C082F0FA74E67008954EF /* RevisionCell.xib in Resources */,
+				020C08300FA74E67008954EF /* SupportCell.xib in Resources */,
+				029A33960FA9B056003E5600 /* support.png in Resources */,
+				029A1E0D0FB31C3C00AA99A0 /* WebView.xib in Resources */,
+				025BBAC10FC6EB80002BD488 /* safari.png in Resources */,
+				028C0B0B0FD7EEF700E28E01 /* header.png in Resources */,
+				02732B97100F6ED6007592D0 /* back.png in Resources */,
+				02434FCC1030847600C62C58 /* Default.png in Resources */,
+				0203D7C010358BCE005E98F4 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iRedmineAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				02E2B1E90F83924700E49BD6 /* BadgeCell.m in Sources */,
+				0222E7EF0F8D3D5000445AAD /* AddViewController.m in Sources */,
+				0241088B0F8E67BD008CAB10 /* SubtitleCell.m in Sources */,
+				02D86C590F8E75F400EB1658 /* RMParser.m in Sources */,
+				023218370F94D2F900A95381 /* IssueTableController.m in Sources */,
+				023218E20F94DE2100A95381 /* ProjectViewController.m in Sources */,
+				0278ED5C0F9E40CA000E8EED /* ProjectTableController.m in Sources */,
+				02E2EDB40F9F57D2003DDCB0 /* WWFeedReader.m in Sources */,
+				029A1DF90FB30E6C00AA99A0 /* WebViewController.m in Sources */,
+				023A0C0810272978009F3E46 /* WWURL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0203D7AB10358AC5005E98F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Distribution;
+		};
+		0203D7AC10358AC5005E98F4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Weisshuhn & Weishuhn Kommunikationsmanagement GmbH";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRedmine_Prefix.pch;
+				HEADER_SEARCH_PATHS = vendor/joehewitt/three20/src;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = iRedmine;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B032467-CFD1-4A16-9AED-8B92FA1DDA55";
+			};
+			name = Distribution;
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRedmine_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = iRedmine;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iRedmine_Prefix.pch;
+				HEADER_SEARCH_PATHS = vendor/joehewitt/three20/src;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = iRedmine;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iRedmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				0203D7AC10358AC5005E98F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iRedmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				0203D7AB10358AC5005E98F4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

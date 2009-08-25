@@ -1,0 +1,4 @@
+# modelled after http://shanesbrain.net/2008/7/9/using-xcode-with-git
+*.pbxproj -crlf -diff -merge
+*.m  diff=objc
+*.mm  diff=objc

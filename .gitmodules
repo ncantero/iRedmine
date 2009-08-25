@@ -1,0 +1,3 @@
+[submodule "vendor/joehewitt/three20"]
+	path = vendor/joehewitt/three20
+	url = git://github.com/joehewitt/three20.git
